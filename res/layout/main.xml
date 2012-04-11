@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.ads.AdView android:id="@+id/adView"
+		android:layout_alignParentTop="true" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" ads:adUnitId="a14e0cbbc6193ca"
+		ads:adSize="BANNER" ads:loadAdOnCreate="false" />
+
+	<TableRow android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="50dip"
+		android:id="@+id/tableRow1" android:layout_below="@+id/tableRowText"
+		android:visibility="visible" android:layout_gravity="fill_horizontal|bottom">
+		<Button android:text="Play" android:id="@+id/pauseButton"
+			android:layout_width="fill_parent" android:layout_weight="1"
+			android:enabled="true" android:layout_height="wrap_content"></Button>
+		<Spinner android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/speedspin"
+			android:layout_weight="1" />
+
+	</TableRow>
+
+	<TableRow android:orientation="horizontal"
+		android:layout_width="fill_parent" android:layout_height="50dip"
+		android:id="@+id/tableRow2" android:layout_below="@+id/tableRowText"
+		android:visibility="visible" android:layout_gravity="fill_horizontal|bottom">
+		<Spinner android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/chunkspin"
+			android:layout_weight="1" />
+		<Spinner android:layout_width="fill_parent"
+			android:layout_height="wrap_content" android:id="@+id/fontsizes"
+			android:layout_weight="1" />
+	</TableRow>
+	<SeekBar android:id="@+id/progressbar" android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:max="1000"
+		android:progress="0" />
+
+	<TextView android:text="FileName - Click here to load txt file" android:id="@+id/filenametext"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></TextView>
+
+	<EditText android:layout_width="fill_parent" android:id="@+id/outputText"
+		android:text="" android:layout_height="fill_parent" android:textSize="30dp"
+		android:gravity="center" android:visibility="visible" android:enabled="true"
+		android:layout_below="@+id/tableRow1"></EditText>
+
+</LinearLayout>

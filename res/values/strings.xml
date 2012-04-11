@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, EasyTextPrompter!</string>
+	<string name="app_name">Easy Text Prompter</string>
+	<string name="location">Location</string>
+	<string name="cant_read_folder">folder can\'t be read!</string>
+	<string name="nnew">New</string>
+	<string name="select">Select</string>
+	<string name="file_name">File name:</string>
+	<string name="cancel">Cancel</string>
+	<string name="create">Create</string>
+	<string name="no_data">No Data</string>
+	<color name="gray">#ffff0000</color>
+
+
+	<string-array name="chunks">
+		<item>1 word</item>
+		<item>2 words</item>
+		<item>3 words</item>
+		<item>4 words</item>
+		<item>5 words</item>
+		<item>6 words</item>
+		<item>7 words</item>
+		<item>8 words</item>
+		<item>9 words</item>
+		<item>10 words</item>
+	</string-array>
+
+	<string-array name="fonts">
+		<item>Smallest Text</item>
+		<item>Smaller Text</item>
+		<item>Small Text</item>
+		<item>Medium Text</item>
+		<item>Large Text</item>
+		<item>Larger Text</item>
+		<item>Huge Text</item>
+	</string-array>
+	
+	<string-array name="speed">
+		<item>Slowest Speed</item>	
+		<item>Slower Speed</item>
+		<item>Slow Speed</item>
+		<item>Medium Speed</item>
+		<item>Fast Speed</item>
+		<item>Faster Speed</item>
+		<item>Fastest Speed</item>
+	</string-array>
+
+
+</resources>
